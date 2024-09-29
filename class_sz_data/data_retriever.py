@@ -41,5 +41,9 @@ def get_data_from_class_sz_repo(path_to_local_repo):
             shutil.copytree(src, dest, dirs_exist_ok=True)
 
         print(f"Selected directories from class-sz/ have been copied to {path_to_local_repo}.")
+
+        # Clean up: remove the 'class_sz-master' directory after copying the files
+        shutil.rmtree(repo_dir)
+        print(f"Temporary directory {repo_dir} has been deleted.")
     else:
         print(f"Failed to download the repository. Status code: {response.status_code}")
