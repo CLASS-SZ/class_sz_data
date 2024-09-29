@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "class_sz_data"
 license = { text = "MIT" }
-version = "0.0.6"
+version = "0.0.7"
 description = "A package to retrieve data from the CLASS-SZ repository"
 readme = "README.md"
 maintainers = [{name = "Boris Bolliet", email = "bb667@cam.ac.uk"}]
