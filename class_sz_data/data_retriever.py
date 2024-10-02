@@ -15,7 +15,7 @@ def get_data_from_class_sz_repo(path_to_local_repo):
         path_to_local_repo (str): The local path where the class-sz directories should be copied.
     """
     # Define the directories we expect to find in the local repository
-    required_dirs = ['class-sz/bbn', 'class-sz/class_sz_auxiliary_files/includes']
+    required_dirs = ['class_sz/class-sz/bbn', 'class_sz/class-sz/class_sz_auxiliary_files/includes']
 
     # Check if required directories already exist
     if all(os.path.exists(os.path.join(path_to_local_repo, subdir)) for subdir in required_dirs):
