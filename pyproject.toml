@@ -11,7 +11,10 @@ readme = "README.md"
 maintainers = [{name = "Boris Bolliet", email = "bb667@cam.ac.uk"}]
 authors = [{name = "Boris Bolliet", email = "bb667@cam.ac.uk"}]
 dependencies = [
-    "requests"
+    "requests",
+    "cython",
+    "numpy",
+    "six"
 ]
 requires-python = ">=3.6"
 
