@@ -24,4 +24,4 @@ repository = "https://github.com/CLASS-SZ/class_sz_data"
 
 
 [tool.setuptools.packages.find]
-where = ["main"]
+where = ["."]
